@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CS43131")(type "KiCad")(uri "${KIPRJMOD}/CS43131.pretty")(options "")(descr "Cirrus Logic CS43131 DAC footprints"))
+)
