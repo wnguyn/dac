@@ -1548,205 +1548,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4733,6 +4534,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dac:AudioJack3_HPDetect"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_HPDetect"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TRS audio jack with normally-open detect contact that closes to Tip on plug insertion; assign pin numbers only after selecting a physical jack."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack3_HPDetect_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 1.27 -3.81) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "NO detect closes to T on insertion"
+					(at 0 -6.985 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(symbol "AudioJack3_HPDetect_1_1"
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "DET"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "DET"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power global)
 			(pin_numbers
@@ -5248,10 +5228,22 @@
 		(uuid "b0147596-56c7-43dc-b1c2-cd471b9369cb")
 	)
 	(junction
+		(at 278.13 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b052c542-f243-493f-b6e8-cd1699826fea")
+	)
+	(junction
 		(at 219.71 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6dd61e1-c3bb-45f4-bb5e-b62b20bd4d38")
+	)
+	(junction
+		(at 278.13 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89993c6-5210-4684-8b96-11769f815cf3")
 	)
 	(junction
 		(at 224.155 204.47)
@@ -5335,7 +5327,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 233.68) (xy 276.86 233.68)
+			(xy 278.13 251.46) (xy 278.13 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0adafea1-fafc-4a34-8978-b23835672a67")
+	)
+	(wire
+		(pts
+			(xy 269.24 233.68) (xy 285.75 233.68)
 		)
 		(stroke
 			(width 0)
@@ -5372,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "1942bf01-4938-4b6e-a197-136878b1cc99")
+	)
+	(wire
+		(pts
+			(xy 278.13 248.92) (xy 278.13 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5f6489-c21c-4878-9126-f9696c4ce937")
 	)
 	(wire
 		(pts
@@ -5465,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 251.46) (xy 278.13 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da9f585-8ac2-4de9-8655-0a7d51a6aeb3")
+	)
+	(wire
+		(pts
 			(xy 285.75 135.89) (xy 295.91 135.89)
 		)
 		(stroke
@@ -5515,16 +5537,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 238.76) (xy 276.86 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae5e2ea-f0e6-4a8d-83e1-227034d61d96")
-	)
-	(wire
-		(pts
 			(xy 288.29 125.73) (xy 288.29 128.27)
 		)
 		(stroke
@@ -5572,6 +5584,16 @@
 			(type default)
 		)
 		(uuid "64bde850-8487-4b57-8013-da5eea44c977")
+	)
+	(wire
+		(pts
+			(xy 278.13 248.92) (xy 278.13 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651ed28f-12b0-41af-8bc6-e9f889779fc7")
 	)
 	(wire
 		(pts
@@ -5692,6 +5714,16 @@
 			(type default)
 		)
 		(uuid "90341827-5694-43f3-b128-eb17a907a945")
+	)
+	(wire
+		(pts
+			(xy 278.13 238.76) (xy 285.75 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912b3ce4-8a7b-4291-8cdb-5cca61d88c4b")
 	)
 	(wire
 		(pts
@@ -5965,7 +5997,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 236.22) (xy 276.86 236.22)
+			(xy 270.51 236.22) (xy 285.75 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6032,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "ebb75c43-09de-4f22-a573-e02d797db5ac")
+	)
+	(wire
+		(pts
+			(xy 264.16 248.92) (xy 278.13 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee65446e-1dcb-4743-b61a-7d2a1646bbee")
 	)
 	(wire
 		(pts
@@ -6123,6 +6165,16 @@
 		)
 		(uuid "97707a42-d69f-4e7a-810d-f0264e3e392d")
 	)
+	(label "HP_DET"
+		(at 264.16 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd14fba8-50be-4ee3-b6f7-3b36403de603")
+	)
 	(label "D-"
 		(at 243.84 120.65 180)
 		(effects
@@ -6132,6 +6184,16 @@
 			(justify right bottom)
 		)
 		(uuid "d5d44cf3-297a-439a-b122-10c30a126765")
+	)
+	(label "HP_DET"
+		(at 285.75 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd6bef0a-a0fe-46d5-b189-e0bb478b7e9c")
 	)
 	(label "MCLK"
 		(at 340.36 139.7 180)
@@ -7611,90 +7673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 281.94 236.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45a97c5e-530e-4266-8770-fcedf10bdc44")
-		(property "Reference" "J2"
-			(at 289.56 236.8551 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3"
-			(at 289.56 234.3151 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 281.94 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "d0016f4f-8425-45cb-85e9-5141a9145553")
-		)
-		(pin "R"
-			(uuid "147f2a9d-37e0-416c-b8f8-8963e1087db5")
-		)
-		(pin "S"
-			(uuid "2e1ab982-7f2f-43c1-865e-d8aa95e47c9c")
-		)
-		(instances
-			(project "dac"
-				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 237.49 135.89 0)
 		(unit 1)
@@ -7849,6 +7827,84 @@
 			(project "dac"
 				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552e5820-3be4-4ce1-9078-9c50f5cca61a")
+		(property "Reference" "#PWR024"
+			(at 278.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d884b5f-f2c4-4567-b6e5-6d6bc7fe790b")
+		)
+		(instances
+			(project "dac"
+				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9511,6 +9567,92 @@
 		)
 	)
 	(symbol
+		(lib_id "dac:AudioJack3_HPDetect")
+		(at 295.91 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb10454b-748a-495a-acc7-f028e5e60698")
+		(property "Reference" "J2"
+			(at 295.91 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_HPDetect"
+			(at 295.91 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TRS audio jack with normally-open detect contact that closes to Tip on plug insertion; assign pin numbers only after selecting a physical jack."
+			(at 295.91 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "876cae14-4d80-47e5-af79-c8fba8ac2960")
+		)
+		(pin "R"
+			(uuid "203302b7-237c-4afd-88ce-e7e2f2991c0b")
+		)
+		(pin "S"
+			(uuid "e12fedc1-7084-411b-83be-437c56a696c3")
+		)
+		(pin "DET"
+			(uuid "ff6d5cae-09a6-42cd-a4cf-872794365d7f")
+		)
+		(instances
+			(project "dac"
+				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 309.88 129.54 0)
 		(unit 1)
@@ -10423,84 +10565,6 @@
 			(project "dac"
 				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d96a411a-7e6d-4f5b-ab81-89abe1ced0be")
-		(property "Reference" "#PWR024"
-			(at 276.86 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "770c5f1d-3e9c-46b6-967b-576a47788d6a")
-		)
-		(instances
-			(project "dac"
-				(path "/e7acdc49-5583-42b4-8c0e-d4aaccb46e47"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
